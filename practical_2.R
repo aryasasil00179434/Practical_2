@@ -45,3 +45,4 @@ newdata2<-manager_data1[order(Age),]
 newdata2
 newdata3<-manager_data1[order(Gender,Age),]
 newdata3
+detach(manager_data1)
